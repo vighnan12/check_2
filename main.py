@@ -17,7 +17,7 @@ app.add_middleware(
 
 # ⚠️ Hardcoded Gmail credentials (test only!)
 GMAIL_USER = "becines84@gmail.com"
-GMAIL_APP_PASSWORD = "bfnb kqqn dmpw txzq"  # App Password
+GMAIL_APP_PASSWORD = "bfnbkqqndmpwtxzq"  # App Password
 
 class EmailRequest(BaseModel):
     to: EmailStr
